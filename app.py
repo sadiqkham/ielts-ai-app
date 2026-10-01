@@ -5,7 +5,7 @@ from groq import Groq
 from gtts import gTTS
 
 # ================= SETTINGS =================
-LLM_MODEL = "llama-3.3-70b-versatile"
+LLM_MODEL = "openai/gpt-oss-120b"
 STT_MODEL = "whisper-large-v3-turbo"
 
 CORRECTION_PROMPT = """You are an expert English teacher helping a learner prepare for IELTS.
